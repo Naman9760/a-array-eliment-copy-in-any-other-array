@@ -1,0 +1,1 @@
+# a-array-eliment-copy-in-any-other-array
