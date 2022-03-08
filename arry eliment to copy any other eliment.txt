@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] eliment = { 23, 34, 32 };
+            int [] eliment2 = { eliment[0], eliment[1], eliment[2] };
+            foreach (int i in eliment2)
+            {
+                Console.WriteLine(i);
+                Console.ReadLine();
+            }
+        }
+    }
+}
